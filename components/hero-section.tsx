@@ -1,0 +1,59 @@
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { ArrowRight } from "lucide-react"
+
+export function HeroSection() {
+  return (
+    <section id="anasayfa" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/hero-music.jpg"
+          alt="Istanbul Music House sahne"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-background/70" />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+        <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
+          <span className="text-foreground">İstanbul&apos;un Kalbinde</span>
+          <br />
+          <span className="text-primary">Müziğin Ruhu</span>
+        </h1>
+        
+        <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
+          Eşsiz sanatçılarımızla unutulmaz müzik deneyimleri yaşayın. 
+          Gelenekten modernliğe uzanan bir yolculuğa çıkın.
+        </p>
+
+        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <Button size="lg" className="group">
+            Etkinlikleri Keşfet
+            <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+          </Button>
+          <Button size="lg" variant="outline">
+            Sanatçılarımız
+          </Button>
+        </div>
+
+        {/* Scrolling Text */}
+        <div className="mt-20 overflow-hidden">
+          <div className="animate-marquee whitespace-nowrap flex items-center gap-8 text-sm text-muted-foreground">
+            <span>★ CANLI MÜZİK</span>
+            <span>★ ÖZEL ETKİNLİKLER</span>
+            <span>★ YETENEKLI SANATÇILAR</span>
+            <span>★ UNUTULMAZ ANLAR</span>
+            <span>★ CANLI MÜZİK</span>
+            <span>★ ÖZEL ETKİNLİKLER</span>
+            <span>★ YETENEKLI SANATÇILAR</span>
+            <span>★ UNUTULMAZ ANLAR</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
