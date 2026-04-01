@@ -20,13 +20,11 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">
-          <span className="text-foreground">İstanbul&apos;un Kalbinde</span>
-          <br />
-          <span className="text-primary">Müziğin Ruhu</span>
+          <span className="text-foreground">Müzik Yeniden</span>
         </h1>
-        
+
         <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-          Eşsiz sanatçılarımızla unutulmaz müzik deneyimleri yaşayın. 
+          Eşsiz sanatçılarımızla unutulmaz müzik deneyimleri yaşayın.
           Gelenekten modernliğe uzanan bir yolculuğa çıkın.
         </p>
 
