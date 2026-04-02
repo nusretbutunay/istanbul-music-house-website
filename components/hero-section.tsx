@@ -37,20 +37,6 @@ export function HeroSection() {
             Sanatçılarımız
           </Button>
         </div>
-
-        {/* Scrolling Text */}
-        <div className="mt-20 overflow-hidden">
-          <div className="animate-marquee whitespace-nowrap flex items-center gap-8 text-sm text-muted-foreground">
-            <span>★ CANLI MÜZİK</span>
-            <span>★ ÖZEL ETKİNLİKLER</span>
-            <span>★ YETENEKLI SANATÇILAR</span>
-            <span>★ UNUTULMAZ ANLAR</span>
-            <span>★ CANLI MÜZİK</span>
-            <span>★ ÖZEL ETKİNLİKLER</span>
-            <span>★ YETENEKLI SANATÇILAR</span>
-            <span>★ UNUTULMAZ ANLAR</span>
-          </div>
-        </div>
       </div>
     </section>
   )
