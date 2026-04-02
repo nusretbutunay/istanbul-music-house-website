@@ -6,20 +6,8 @@ const artists = [
   {
     name: "Mebrure",
     role: "Vokal & Şarkı Yazarı",
-    image: "/images/mebrure.jpg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mebrure-zokWhZVo2ixM0ZTlM0AttnIXhQ6pVe.jpg",
     description: "Duygusal yorumları ve etkileyici sahne performansıyla tanınan Mebrure, geleneksel melodilere modern bir dokunuş katıyor.",
-  },
-  {
-    name: "Mutebessim",
-    role: "Enstrümantal Virtüöz",
-    image: "/images/mutebessim.jpg",
-    description: "Çok yönlü müzikal yeteneği ve özgün tarzıyla Mutebessim, her performansında dinleyicileri büyülüyor.",
-  },
-  {
-    name: "Maşuk",
-    role: "Ses Sanatçısı",
-    image: "/images/masuk.jpg",
-    description: "Derin ve etkileyici sesiyle Maşuk, müziğin duygusal derinliklerini keşfetmenize rehberlik ediyor.",
   },
 ]
 
@@ -41,11 +29,11 @@ export function ArtistsSection() {
         </div>
 
         {/* Artists Grid */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="flex justify-center">
           {artists.map((artist, index) => (
             <div
               key={index}
-              className="group relative bg-card rounded-lg overflow-hidden border border-border hover:border-primary/50 transition-all duration-300"
+              className="group relative bg-card rounded-lg overflow-hidden border border-border hover:border-primary/50 transition-all duration-300 w-full max-w-sm"
             >
               {/* Image */}
               <div className="relative aspect-[3/4] overflow-hidden">
