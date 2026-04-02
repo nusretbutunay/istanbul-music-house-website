@@ -18,21 +18,16 @@ export function AboutSection() {
               Hakkımızda
             </span>
             <h2 className="mt-4 font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-balance">
-              Müziğe Adanmış Bir
+              Müziğe Davetlisiniz!
             </h2>
             <p className="mt-6 text-muted-foreground text-lg leading-relaxed">
-              Istanbul Music House, şehrin kültürel dokusuna yeni bir soluk getirmek amacıyla kuruldu.
+              Istanbul Music House, müziğin dokusuna yeni bir soluk getirmek amacıyla kuruldu.
               Geleneksel Türk müziğinden modern yorumlara kadar geniş bir yelpazede,
               en yetenekli sanatçılarımızla sizlere unutulmaz anlar yaşatıyoruz.
             </p>
-            <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
-              Her performansımız, müziğin evrensel diliyle kalplere dokunmak için tasarlandı.
-              Samimi atmosferimiz ve profesyonel sahnemizle,
-              her ziyaretinizi özel kılmak için buradayız.
-            </p>
           </div>
 
-          {/* Stats Grid */}
+          {/* Stats Grid
           <div className="grid grid-cols-2 gap-6">
             {stats.map((stat, index) => (
               <div
@@ -49,6 +44,7 @@ export function AboutSection() {
               </div>
             ))}
           </div>
+          */}
         </div>
       </div>
     </section>
