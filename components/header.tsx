@@ -9,7 +9,6 @@ const navLinks = [
   { href: "#anasayfa", label: "Ana Sayfa" },
   { href: "#hakkimizda", label: "Hakkımızda" },
   { href: "#sanatcilar", label: "Sanatçılar" },
-  { href: "#etkinlikler", label: "Etkinlikler" },
   { href: "#iletisim", label: "İletişim" },
 ]
 
