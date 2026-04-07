@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Instagram, Music } from "lucide-react"
+import { Instagram, Youtube } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const artists = [
@@ -8,6 +8,8 @@ const artists = [
     role: "Vokal & Şarkı Yazarı",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mebrure-zokWhZVo2ixM0ZTlM0AttnIXhQ6pVe.jpg",
     description: "Duygusal yorumları ve kendine has tarzıyla Mebrure, geleneksel melodilere modern bir dokunuş katıyor.",
+    instagram: "https://www.instagram.com/official_mebrure/",
+    youtube: "https://www.youtube.com/channel/UCCd359ltUJINbVy8gpBcO8Q",
   },
 ]
 
@@ -60,12 +62,16 @@ export function ArtistsSection() {
 
                 {/* Social Links */}
                 <div className="flex gap-2 mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <Button size="icon" variant="outline" className="h-8 w-8">
-                    <Instagram className="h-4 w-4" />
-                  </Button>
-                  <Button size="icon" variant="outline" className="h-8 w-8">
-                    <Music className="h-4 w-4" />
-                  </Button>
+                  <a href={artist.instagram} target="_blank" rel="noopener noreferrer">
+                    <Button size="icon" variant="outline" className="h-8 w-8">
+                      <Instagram className="h-4 w-4" />
+                    </Button>
+                  </a>
+                  <a href={artist.youtube} target="_blank" rel="noopener noreferrer">
+                    <Button size="icon" variant="outline" className="h-8 w-8">
+                      <Youtube className="h-4 w-4" />
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
