@@ -7,7 +7,7 @@ const artists = [
     name: "Mebrure",
     role: "Vokal & Şarkı Yazarı",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mebrure-zokWhZVo2ixM0ZTlM0AttnIXhQ6pVe.jpg",
-    description: "Duygusal yorumları ve etkileyici sahne performansıyla tanınan Mebrure, geleneksel melodilere modern bir dokunuş katıyor.",
+    description: "Duygusal yorumları ve kendine has tarzıyla Mebrure, geleneksel melodilere modern bir dokunuş katıyor.",
   },
 ]
 
@@ -24,7 +24,7 @@ export function ArtistsSection() {
             Yetenekli Sanatçılarımız
           </h2>
           <p className="mt-4 text-muted-foreground text-lg max-w-2xl mx-auto">
-            Müziğin farklı renklerini sahnemize taşıyan benzersiz yeteneklerimizle tanışın.
+            Müziğin farklı renklerini müzikseverlerle buluşturan benzersiz yeteneklerimizle tanışın.
           </p>
         </div>
 
@@ -57,7 +57,7 @@ export function ArtistsSection() {
                 <p className="text-muted-foreground text-sm mt-3 line-clamp-2 group-hover:line-clamp-none transition-all">
                   {artist.description}
                 </p>
-                
+
                 {/* Social Links */}
                 <div className="flex gap-2 mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
                   <Button size="icon" variant="outline" className="h-8 w-8">
