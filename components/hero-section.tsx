@@ -27,16 +27,6 @@ export function HeroSection() {
           Eşsiz sanatçılarımızla unutulmaz müzik deneyimleri yaşayın.
           Gelenekten modernliğe uzanan bir yolculuğa çıkın.
         </p>
-
-        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button size="lg" className="group">
-            Etkinlikleri Keşfet
-            <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-          </Button>
-          <Button size="lg" variant="outline">
-            Sanatçılarımız
-          </Button>
-        </div>
       </div>
     </section>
   )

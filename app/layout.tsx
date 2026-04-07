@@ -3,19 +3,19 @@ import { Inter, Playfair_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ['latin', 'latin-ext'],
   variable: '--font-inter',
 })
 
-const playfair = Playfair_Display({ 
+const playfair = Playfair_Display({
   subsets: ['latin', 'latin-ext'],
   variable: '--font-playfair',
 })
 
 export const metadata: Metadata = {
   title: 'Istanbul Music House | Müzik Evi',
-  description: 'İstanbul\'un kalbinde, müziğin ruhu. En iyi sanatçılarla unutulmaz müzik deneyimleri.',
+  description: 'Müzik Yeniden',
   generator: 'v0.app',
   icons: {
     icon: [

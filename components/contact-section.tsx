@@ -10,23 +10,18 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Adres",
-    value: "Beyoğlu, İstiklal Caddesi No: 123\nİstanbul, Türkiye",
+    value: "",
   },
   {
     icon: Phone,
     label: "Telefon",
-    value: "+90 (212) 555 01 23",
+    value: "",
   },
   {
     icon: Mail,
     label: "E-posta",
-    value: "info@istanbulmusichouse.com",
-  },
-  {
-    icon: Clock,
-    label: "Çalışma Saatleri",
-    value: "Salı - Pazar: 18:00 - 02:00\nPazartesi: Kapalı",
-  },
+    value: "",
+  }
 ]
 
 export function ContactSection() {
