@@ -24,8 +24,7 @@ export function HeroSection() {
         </h1>
 
         <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-          Eşsiz sanatçılarımızla unutulmaz müzik deneyimleri yaşayın.
-          Gelenekten modernliğe uzanan bir yolculuğa çıkın.
+          Tertemiz sesler, naif şairler, ruha şifa bestelerle yola çıktık. Gelenekten, geleceğe selam ile.
         </p>
       </div>
     </section>
