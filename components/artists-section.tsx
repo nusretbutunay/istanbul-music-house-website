@@ -6,7 +6,7 @@ const artists = [
   {
     name: "Mebrure",
     role: "Vokal & Şarkı Yazarı",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mebrure-zokWhZVo2ixM0ZTlM0AttnIXhQ6pVe.png",
+    image: "/images/mebrure.png",
     description: "Duygusal yorumları ve kendine has tarzıyla Mebrure, geleneksel melodilere modern bir dokunuş katıyor.",
     instagram: "https://www.instagram.com/official_mebrure/",
     youtube: "https://www.youtube.com/channel/UCCd359ltUJINbVy8gpBcO8Q",
