@@ -10,6 +10,8 @@ const artists = [
     description: "Duygusal yorumları ve kendine has tarzıyla Mebrure, geleneksel melodilere modern bir dokunuş katıyor.",
     instagram: "https://www.instagram.com/official_mebrure/",
     youtube: "https://www.youtube.com/channel/UCCd359ltUJINbVy8gpBcO8Q",
+    facebook: "https://www.facebook.com/share/1DWtjfVv3T/",
+    tiktok: "https://www.tiktok.com/@mebrureniz?_r=1&_t=ZS-95bjdHSbb3C"
   },
 ]
 
