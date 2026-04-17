@@ -1,5 +1,6 @@
 import Image from "next/image"
-import { Instagram, Youtube } from "lucide-react"
+import { Instagram, Youtube, Facebook } from "lucide-react"
+import { SiTiktok } from "react-icons/si"
 import { Button } from "@/components/ui/button"
 
 const artists = [
