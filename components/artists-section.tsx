@@ -79,10 +79,10 @@ export function ArtistsSection() {
 
               {/* Content */}
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <h3 className="font-serif text-2xl font-bold text-foreground">
+                <h3 className="font-serif text-2xl font-bold text-white">
                   {artist.name}
                 </h3>
-                <p className="text-primary text-sm font-medium mt-1">
+                <p className="text-white text-sm font-medium mt-1">
                   {artist.role}
                 </p>
                 <p className="text-muted-foreground text-sm mt-3 line-clamp-2 group-hover:line-clamp-none transition-all">
