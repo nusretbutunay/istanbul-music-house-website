@@ -13,7 +13,7 @@ export function AboutSection() {
             <p className="mt-6 text-muted-foreground text-lg leading-relaxed">
               Istanbul Music House, müziğin dokusuna yeni bir soluk getirmek amacıyla kuruldu.
               Geleneksel Türk müziğinden modern yorumlara kadar geniş bir yelpazede,
-              en yetenekli sanatçılarımızla sizlere unutulmaz anlar yaşatıyoruz.
+              en yetenekli sanatçılarımızla sizlere unutulmaz anlar yaşatmak için bir araya geldik.
             </p>
           </div>
         </div>
