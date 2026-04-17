@@ -74,7 +74,7 @@ export function ArtistsSection() {
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
               </div>
 
               {/* Content */}
@@ -85,7 +85,7 @@ export function ArtistsSection() {
                 <p className="text-white text-sm font-medium mt-1">
                   {artist.role}
                 </p>
-                <p className="text-muted-foreground text-sm mt-3 line-clamp-2 group-hover:line-clamp-none transition-all">
+                <p className="text-white/80 text-sm mt-3 line-clamp-2 group-hover:line-clamp-none transition-all">
                   {artist.description}
                 </p>
 
